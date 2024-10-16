@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Prediction</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* Center elements vertically and horizontally */
+        }
+
+        h1 {
+            color: navy;
+            text-align: center;
+            font-weight: bold;
+            font-size: 3em;
+            /* Increase the size of the heading */
+            margin-bottom: 20px;
+            /* Space between heading and button */
+        }
+
+        .btn-predict {
+            background-color: navy;
+            /* Button background color */
+            color: white;
+            /* Button text color */
+            padding: 15px 30px;
+            /* Button padding */
+            font-size: 1.5em;
+            /* Button text size */
+            border: none;
+            /* Remove border */
+            border-radius: 5px;
+            /* Round the corners */
+            transition: background-color 0.3s ease;
+            /* Transition effect */
+        }
+
+        .btn-predict:hover {
+            background-color: darkblue;
+            /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Marks Prediction</h1>
+    <a href="/predictdata" class="btn btn-predict">Predict</a>
+</body>
+
+</html>
